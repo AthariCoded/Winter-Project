@@ -32,7 +32,7 @@ window.onscroll = () => {
 function addToCart() {
   document.getElementById("order1").innerHTML = "cart item 05";
   document.getElementById("orderPic").innerHTML =
-    '<img src="images/cart-item-4.png" alt="cart1" />';
+    '<img src="images/menu-6.png" alt="cart1" />';
   document.getElementById("orderPrice").innerHTML = "10.55 KD";
   document.getElementById("orderX").innerHTML =
     '<span class="fas fa-times"></span>';

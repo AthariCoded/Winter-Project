@@ -104,12 +104,14 @@ section {
   margin: 0.1rem;
   font-size: 1.6rem;
   color: #fff;
+  padding: 1rem;
 }
 
 .header .navbar a:hover {
   color: var(--main-color);
   border-bottom: 0.1rem solid var(--main-color);
   padding-bottom: 0.5rem;
+  padding: 1rem;
 }
 
 .header .icons div {
@@ -230,6 +232,8 @@ section {
 
 .home .content {
   max-width: 60rem;
+  /* padding added to adject to bg picture */
+  padding-left: 15rem;
 }
 
 .home .content h3 {
@@ -243,7 +247,7 @@ section {
   font-weight: lighter;
   line-height: 1.8;
   padding: 1rem 0;
-  color: #eee;
+  color: var(--bg);
 }
 
 .about .row {
